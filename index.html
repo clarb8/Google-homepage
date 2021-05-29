@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Google Homepage</title>
+        <link rel="stylesheet" href="/styles/stylesheet.css">
     </head>
     <body>
         <div id="top-line">
@@ -10,19 +12,19 @@
             <a href="https://www.google.com/imghp?hl=en&tab=ri&ogbl">images</a>
             
         </div>
-        <div id="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="This is the full color standard google logo">
-        </div>
-        <div id="searchbar">
-            <form>
-                <button id="searchbtn"><img id="search" src="images/outline_search_black_24dp.png" alt="image of a magnifying glass"></button>
-                <input type="search" placeholder="search Google or type a URL">
-                <img id="mic" src="images/outline_mic_black_24dp.png" alt="image of a microphone">
-            </form>
-        </div>
-        <div id-"btns">
-            <button id="gsearch">Google Search</button>
-            <button id="luckybtn">I'm feeling lucky</button>
+        <div class="main">
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="This is the full color standard google logo">
+            </div>
+            <div id="searchbar">
+                <div class="searchdiv">
+                    <input class="search" type="search" placeholder="search Google or type a URL"></input><img id="search" src="images/outline_search_black_24dp.png" alt="image of a magnifying glass"><img id="mic" src="images/outline_mic_black_24dp.png" alt="image of a microphone">
+                </div>
+            </div>
+            <div id="btns">
+                <button id="gsearch">Google Search</button>
+                <button id="luckybtn">I'm feeling lucky</button>
+            </div>
         </div>
         <div id="recent-sites">
             
